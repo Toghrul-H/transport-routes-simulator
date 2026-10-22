@@ -1,0 +1,32 @@
+# Maven and Java output
+/target/
+*.class
+*.log
+/.maven-cache/
+
+# Local game state (keep existing files on disk)
+/saves/
+/*.dat
+*.sav
+
+# IDE and editor state
+/.idea/
+/.vscode/
+*.iml
+/.classpath
+/.project
+/.settings/
+/nbproject/private/
+/nbactions.xml
+*~
+*.swp
+
+# OS metadata and local secrets
+.DS_Store
+Thumbs.db
+Desktop.ini
+.env
+.env.*
+!.env.example
+*.pem
+*.key
